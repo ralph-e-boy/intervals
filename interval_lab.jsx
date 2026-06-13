@@ -291,7 +291,7 @@ function IntervalLab() {
         <header className="mb-7">
           <div className="mono text-sm tracking-widest" style={{ color: "#5fbf9e", letterSpacing: "0.28em" }}>INTERVAL · LAB</div>
           <h1 style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 52, lineHeight: 1.05, marginTop: 8 }}>
-            Two-voice intervals, <span style={{ fontStyle: "italic", color: "#9fe7cd" }}>in time and in shape</span>
+            Two-voice intervals, <br/><span style={{ fontStyle: "italic", color: "#9fe7cd" }}>in time and in shape</span>
           </h1>
           <p className="text-base mt-3" style={{ color: "#8aa39b", maxWidth: 680 }}>
             The band is the two voices over time. The scope is those same two waves as a shape. Same color drives both —
