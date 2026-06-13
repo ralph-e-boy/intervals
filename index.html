@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interval Lab</title>
+
+  <!-- Styling: Tailwind Play CDN (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- React + ReactDOM (UMD globals: React, ReactDOM) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <!-- Babel: transpiles the JSX in the browser -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style> html, body, #root { height: 100%; margin: 0; } </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Your component. Babel fetches and transpiles it; runs in global scope. -->
+  <script type="text/babel" src="./interval_lab.jsx" data-presets="react"></script>
+
+  <!-- Mount it. -->
+  <script type="text/babel" data-presets="react">
+    ReactDOM.createRoot(document.getElementById("root")).render(<IntervalLab />);
+  </script>
+</body>
+</html>
