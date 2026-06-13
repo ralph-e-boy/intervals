@@ -289,11 +289,11 @@ function IntervalLab() {
 
       <div className="mx-auto px-5 py-8" style={{ maxWidth: 980 }}>
         <header className="mb-7">
-          <div className="mono text-xs tracking-widest" style={{ color: "#5fbf9e", letterSpacing: "0.28em" }}>INTERVAL · LAB</div>
-          <h1 style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 38, lineHeight: 1.05, marginTop: 6 }}>
-            Two voices, two views, <span style={{ fontStyle: "italic", color: "#9fe7cd" }}>one truth</span>
+          <div className="mono text-sm tracking-widest" style={{ color: "#5fbf9e", letterSpacing: "0.28em" }}>INTERVAL · LAB</div>
+          <h1 style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 52, lineHeight: 1.05, marginTop: 8 }}>
+            Two-voice intervals, <span style={{ fontStyle: "italic", color: "#9fe7cd" }}>in time and in shape</span>
           </h1>
-          <p className="text-sm mt-2" style={{ color: "#8aa39b", maxWidth: 620 }}>
+          <p className="text-base mt-3" style={{ color: "#8aa39b", maxWidth: 680 }}>
             The band is the two voices over time. The scope is those same two waves as a shape. Same color drives both —
             green consonant, amber unstable, rose dissonant. Flip the tuning and watch the figure lock or drift.
           </p>
